@@ -1,8 +1,8 @@
 require('packages')
 require('kb')
 vim.wo.number = true
+vim.wo.relativenumber = true 
 vim.api.nvim_exec([[autocmd BufWritePre *.go lua vim.lsp.buf.formatting_sync(nil, 1000)]], false)
-
 vim.api.nvim_exec([[nmap <C-P> :FZF<CR>]], false)
 
 
