@@ -3,6 +3,8 @@ require('kb')
 vim.wo.number = true
 vim.api.nvim_exec([[autocmd BufWritePre *.go lua vim.lsp.buf.formatting_sync(nil, 1000)]], false)
 
+vim.api.nvim_exec([[nmap <C-P> :FZF<CR>]], false)
+
 
 local configs = require'nvim-treesitter.configs'.setup {
   -- One of "all", "maintained" (parsers with maintainers), or a list of languages
