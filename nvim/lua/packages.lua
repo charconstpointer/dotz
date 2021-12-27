@@ -13,4 +13,9 @@ return require('packer').startup(function()
 	use 'hrsh7th/cmp-vsnip'
 	use 'hrsh7th/vim-vsnip'
 	use 'junegunn/fzf'
+	use 'jiangmiao/auto-pairs'
+	use 'nvim-lua/plenary.nvim'
+	use 'nvim-lua/popup.nvim'
+	use 'crispgm/nvim-go'
+	use 'neovim/nvim-lspconfig'
 end) 

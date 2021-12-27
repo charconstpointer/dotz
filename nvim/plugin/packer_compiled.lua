@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["auto-pairs"] = {
+    loaded = true,
+    path = "/Users/mo/.local/share/nvim/site/pack/packer/start/auto-pairs",
+    url = "https://github.com/jiangmiao/auto-pairs"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/mo/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -104,6 +109,11 @@ _G.packer_plugins = {
     path = "/Users/mo/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-go"] = {
+    loaded = true,
+    path = "/Users/mo/.local/share/nvim/site/pack/packer/start/nvim-go",
+    url = "https://github.com/crispgm/nvim-go"
+  },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "/Users/mo/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
@@ -118,6 +128,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/mo/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/Users/mo/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["popup.nvim"] = {
+    loaded = true,
+    path = "/Users/mo/.local/share/nvim/site/pack/packer/start/popup.nvim",
+    url = "https://github.com/nvim-lua/popup.nvim"
   },
   ["vim-vsnip"] = {
     loaded = true,
